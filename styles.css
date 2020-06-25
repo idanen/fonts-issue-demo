@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+    --primary-color: gold;
+    --secondary-color: rebeccapurple;
+    --text-color: black;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+button {
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
